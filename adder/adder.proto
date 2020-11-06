@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "github.com/mjafari98/go-grpc-adder/adder";
+
+package adder;
+
+message NumberRequest {
+  int32 num = 1;
+}
+
+message NumberResponse {
+  int32 num = 1;
+  string status = 2;
+}
+
+service Adder {
+  rpc AddNumber (NumberRequest) returns (NumberResponse) {}
+}
