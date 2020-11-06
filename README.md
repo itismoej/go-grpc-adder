@@ -1,4 +1,9 @@
 # go-grpc-adder
+0. Get the project:
+```shell script
+go get github.com/mjafari98/go-grpc-adder
+```
+
 1. Open a terminal and run `server/main.go` 
 ```shell script
 go run server/main.go
