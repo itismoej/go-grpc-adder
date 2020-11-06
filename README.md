@@ -1,6 +1,7 @@
 # go-grpc-adder
-0. Get the project:
+0. Get the project and `grpc` itself:
 ```shell script
+go get google.golang.org/grpc
 go get github.com/mjafari98/go-grpc-adder
 ```
 
